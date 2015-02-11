@@ -1,0 +1,20 @@
+{
+    "name": "szainmehdi/paper",
+    "description": "A tiny micro-framework for PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S. Zain Mehdi",
+            "email": "szainmehdi@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Paper\\": "src/Paper"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
